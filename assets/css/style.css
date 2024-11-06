@@ -2,7 +2,6 @@ body {
   margin: 2rem;
   padding: 1rem;
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: rgb(121, 156, 209);
 }
 body h1,
 body h2,
@@ -13,28 +12,9 @@ body .h3 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-}
 header nav {
   display: flex;
   align-items: center;
-  font-size: 1rem;
-  gap: 5rem;
-}
-header nav a {
-  text-decoration: none;
-  color: rgb(234, 129, 209);
-  border: 1px solid rgb(234, 129, 209);
-}
-
-main {
-  background-color: rgb(234, 129, 209);
-}
-main img {
-  width: 500px;
-}
-main .imgtesto {
-  display: flex;
+  margin: 1rem;
+  
 }/*# sourceMappingURL=style.css.map */
